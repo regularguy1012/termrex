@@ -5,7 +5,7 @@
 
 ## Requirements
 
-- POSIX-compatible terminal / console(Linux,MacOs,BSD)
+- POSIX-compatible terminal / console(Linux,macOS,BSD)
 - C++ compiler (g++ or clang++) 
 - GNU Make
 
