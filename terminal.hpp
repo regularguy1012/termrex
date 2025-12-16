@@ -89,7 +89,6 @@ inline void Terminal::enableAltBuffer() {
 inline void Terminal::disableAltBuffer() {
   printf("\x1b[<2u");
   printf("\033[?1049l");
-  printf("\x1b[<2u");
 };
 
 #endif
