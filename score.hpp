@@ -184,12 +184,14 @@ class Score {
     current_ = 0.0f;
   }
 
-  void saveScore(int score) {
-    if (score >= (int)high_) {
+  void saveScore(float score) {
+    if (score >= high_) {
       if (score >= 999999) {
         score = 999999;
       }
       hs_.store(int(score));
+      high_ = score;
+      return;
     }
   }
 

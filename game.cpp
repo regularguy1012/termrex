@@ -281,7 +281,7 @@ void Game::drawBoxNoFill() const {
 }
 
 void Game::gameOver() {
-  score_.saveScore((int)score_.current_);
+  score_.saveScore(score_.current_);
   gameOverDraw();
 }
 
